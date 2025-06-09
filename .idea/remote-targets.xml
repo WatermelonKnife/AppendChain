@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="6aea8d42-1de4-4d29-8d89-c0d803dc08dc" />
+    <targets>
+      <target name="yjy@10.69.46.129:35" type="ssh/sftp" uuid="6aea8d42-1de4-4d29-8d89-c0d803dc08dc">
+        <config>
+          <option name="projectRootOnTarget" value="/home/yjy/go/src/ethTest" />
+          <option name="serverName" value="yjy@10.69.46.129:35 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="compiledExecutablesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/yjy/go/src/ethTest/build" />
+              </VolumeState>
+            </option>
+            <option name="goPath" value="/home/yjy/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="projectSourcesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/yjy/go/src/ethTest" />
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
