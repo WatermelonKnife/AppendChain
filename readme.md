@@ -24,7 +24,7 @@ MPT节点创建:core/state/statedb.go 的New2()函数
 集成新键的编码提交: trie/database.go 的Commit2()函数
 获取节点数据: trie/database.go 的node()函数
 
-等
+等  
 
 #### 执行测试
 
