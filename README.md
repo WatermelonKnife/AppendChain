@@ -34,8 +34,8 @@ MPT节点创建:core/state/statedb.go 的New2()函数
 
 具体需要下载并编译go-ethereum项目（我们使用的版本是Geth V1.9.25），并执行以下命令：
 
-``` nohup ./geth1.9.25 --syncmode full --cache 4096 --datadir /mnt/sdb/gethdata --gcmode=archive --port 30303 --http --http.addr 127.0.0.1 --http.port 8545 >> geth.log 2>&1 &
-
+``` 
+nohup ./geth1.9.25 --syncmode full --cache 4096 --datadir /mnt/sdb/gethdata --gcmode=archive --port 30303 --http --http.addr 127.0.0.1 --http.port 8545 >> geth.log 2>&1 &
 ```
 
 待日志中显示同步一定量区块后，可以执行重放过程。我们同步600万区块大约花费了2月左右。
